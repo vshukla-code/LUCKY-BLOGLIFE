@@ -1,0 +1,168 @@
+/* laptop size  */
+
+@media screen and (max-width:1280px) {
+
+    /* ........................... */
+    .banner-text h1 b {
+        font-weight: bolder;
+        font-size: 35px;
+        color: #fff;
+    }
+
+    .banner-text h6 button {
+
+        font-size: 16px;
+        color: #000;
+        background-color: #beb9b9;
+        padding: 12px 24px;
+    }
+
+    .banner-text h6 button:hover {
+        background-color: #ece8e8;
+    }
+
+    /* ..................... */
+
+    .content-area {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .left-box {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .blog-image-one img {
+        width: 100%;
+    }
+
+    .right-box {
+        width: 100%;
+        margin-top: 20px;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .nav-bar a {
+        margin: 10px 2px 0px 5px;
+        padding: 4px;
+    }
+
+
+    .Popular-post h4 {
+        text-align: center;
+    }
+
+    .popular-post-photo {
+        flex-direction: column;
+        margin-top: 5px;
+        padding: 0px;
+        gap: 5px;
+    }
+
+    .blog-image-one p {
+        overflow: hidden;
+    }
+
+    .popular-post-photo img {
+        width: 100%;
+    }
+
+    .popular-post-heading p {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .popular-post-heading,
+    #last-para {
+        border-bottom: 1px solid black;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    .footer-link {
+        text-align: center;
+        align-items: center;
+        padding: 0px;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .nav-bar a {
+        margin: 8px 1px 0px 2px;
+        padding: 2px;
+    }
+
+    /* ........................... */
+    .banner-text h1 b {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .banner-text h6 button {
+
+        font-size: 16px;
+        color: #000;
+        background-color: #beb9b9;
+        /* padding: 8px 12px; */
+    }
+
+    .banner-text h6 button:hover {
+        background-color: #ece8e8;
+    }
+
+    .banner-text {
+        line-height: 35px;
+    }
+
+    /* ..................... */
+
+    .inspiration-box {
+        grid-template-columns: auto;
+        grid-template-rows: 310px;
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    .insoiration-photo img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .blog-image-one p {
+        overflow: hidden;
+        margin-right: 5px;
+    }
+
+    .tag-box span {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        background-color: #fff;
+    }
+
+
+    .follow-box p {
+        text-align: center;
+    }
+
+    .popular-post-heading,
+    #last-para {
+        border-bottom: none;
+    }
+
+    .popular-post-heading p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+}
